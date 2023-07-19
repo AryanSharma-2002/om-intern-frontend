@@ -13,12 +13,12 @@ import axios from "axios";
 import { EmailIcon, PhoneIcon } from "@chakra-ui/icons";
 import { useFormik } from "formik";
 import * as Yup from "yup";
-
+import BASE_URL from "../config/base_url";
 const ContactUs = () => {
   const toast = useToast();
   const sendMail = async (name, email, message) => {
     try {
-      const result = await axios.post("http://localhost:5000/api/send", {
+      const result = await axios.post(`${BASE_URL}/api/send`, {
         name,
         email,
         message,
