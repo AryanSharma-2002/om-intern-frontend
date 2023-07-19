@@ -1,0 +1,19 @@
+.infoBox {
+  width: 18rem;
+  margin: 1rem 0;
+}
+.infoBox h3 {
+  font-size: 1.3rem;
+}
+.links {
+  text-decoration: underline;
+}
+.links:hover {
+  text-decoration: none;
+}
+.wrapper {
+  padding: 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}

@@ -1,0 +1,30 @@
+.about-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #7e8595;
+  color: white;
+}
+.text {
+  width: 98%;
+  height: 50vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.heading {
+  font-size: 2.5rem;
+  margin: 0.5rem;
+}
+.content {
+  width: 50%;
+  font-size: 1.5rem;
+}
+.about-img {
+  width: 98%;
+  height: 100vh;
+  object-fit: cover;
+  object-position: center;
+  margin-bottom: 1rem;
+}

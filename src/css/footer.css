@@ -1,0 +1,28 @@
+.footer {
+  background-color: #f4f4f4;
+  padding: 1rem;
+  color: #333;
+}
+
+.footer-content {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.footer-section {
+  flex: 1 1 100%;
+  margin-bottom: 2rem;
+}
+
+@media (min-width: 768px) {
+  .footer-section {
+    flex: 1 1 calc(50% - 1rem);
+  }
+}
+
+@media (min-width: 992px) {
+  .footer-section {
+    flex: 1 1 calc(33.333% - 1.33rem);
+  }
+}

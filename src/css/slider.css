@@ -1,0 +1,16 @@
+.container-img {
+  height: 100%;
+}
+.container-item {
+  height: 70vh;
+}
+.img {
+  object-fit: cover;
+  display: none;
+}
+@media (max-width: 768px) {
+  /* Adjust height for smaller screens */
+  .container-item {
+    height: 50vh;
+  }
+}
